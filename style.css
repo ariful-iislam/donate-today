@@ -1,14 +1,18 @@
 body {
   font-family: "Oswald", sans-serif;
 }
+h1 {
+  font-size: 40px;
+}
 
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
-  padding: 10px 40px;
+  padding: 10px 20px;
   border-radius: 10px;
   color: white;
   font-weight: 700;
+  font-size: 30px;
 }
 #font {
   color: white;
@@ -24,13 +28,14 @@ body {
 }
 .donate {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .flexible-container {
   display: flex;
   text-align: center;
-  margin-left: 250px;
-  margin-top: 25px;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 10px;
 }
 .half-width {
   width: 10%;
@@ -41,7 +46,8 @@ body {
   margin-left: 60px;
 }
 #marked {
-  border-color: sandybrown;
+  background-color: sandybrown;
+  border: 5px, solid red;
 }
 .amount {
   margin-top: 60px;
@@ -55,4 +61,40 @@ body {
   font-size: 20px;
   color: white;
   margin-top: 10px;
+}
+.donate-plan {
+  text-align: center;
+}
+.food {
+  text-align: left;
+  margin: 30px;
+  padding: 40px;
+  background-color: aliceblue;
+}
+.shelter {
+  text-align: left;
+  margin: 30px;
+  padding: 40px;
+  background-color: rgba(245, 199, 233, 0.904);
+}
+.education {
+  text-align: left;
+  margin: 30px;
+  padding: 40px;
+  background-color: bisque;
+}
+.need {
+  margin-right: 50px;
+  width: 50%;
+  position: center;
+  margin-top: 50px;
+}
+.update {
+  text-align: center;
+}
+.humble {
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  color: brown;
 }
