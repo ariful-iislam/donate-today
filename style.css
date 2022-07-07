@@ -1,0 +1,58 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+#font {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+}
+.top-banner {
+  background-image: url(images/donation6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  text-align: center;
+}
+.donate {
+  text-align: center;
+  margin-top: 50px;
+}
+.flexible-container {
+  display: flex;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: 25px;
+}
+.half-width {
+  width: 10%;
+  text-align: center;
+  font-size: 30px;
+  background-color: beige;
+  padding: 20px;
+  margin-left: 60px;
+}
+#marked {
+  border-color: sandybrown;
+}
+.amount {
+  margin-top: 60px;
+  padding: 20px;
+}
+#taka {
+  text-decoration: none;
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+}
